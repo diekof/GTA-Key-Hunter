@@ -29,7 +29,21 @@ jobs:
         with:
           gradle-version: '8.9'
       - name: Build debug APK
-        run: gradle :app:assembleDebug --stacktrace --no-daemon
+        run: |
+          set -o pipefail
+          gradle :app:assembleDebug --console=plain --no-daemon 2>&1 | tee build.log
+      - name: Show Kotlin errors
+        if: failure()
+        shell: bash
+        run: |
+          echo "=== Compiler errors ==="
+          grep -n -E '(^|[[:space:]])(e:|error:)|\.kt:[0-9]+:[0-9]+' build.log | head -80 || true
+      - name: Upload build log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: GTAKeyHunter-build-log
+          path: build.log
       - uses: actions/upload-artifact@v4
         if: success()
         with:
