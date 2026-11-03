@@ -12,7 +12,7 @@ class WhatsAppNotificationService : NotificationListenerService() {
         val message = extras.getCharSequence(Notification.EXTRA_TEXT)?.toString().orEmpty()
         if (!title.contains(store.channel, ignoreCase = true)) return
         val found = store.add(KeyEngine.extract(message), "Notificação: ${store.channel}")
-        store.lastEvent = if (found > 0) "$"+"found código(s) na notificação" else "Notificação do canal recebida; imagem pode estar indisponível"
+        store.lastEvent = if (found > 0) "$found código(s) na notificação" else "Notificação do canal recebida; imagem pode estar indisponível"
         Events.ping()
     }
 }
