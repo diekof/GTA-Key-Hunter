@@ -35,7 +35,7 @@ class ScreenCaptureService : Service() {
             else intent?.getParcelableExtra<Intent>(EXTRA_DATA)
         if(data==null) { stopSelf(); return START_NOT_STICKY }
         val mgr=getSystemService(MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
-        projection=mgr.getMediaProjection(intent.getIntExtra(EXTRA_RESULT,Activity.RESULT_CANCELED),data)
+        projection=mgr.getMediaProjection(intent?.getIntExtra(EXTRA_RESULT,Activity.RESULT_CANCELED) ?: Activity.RESULT_CANCELED,data)
         val p=projection ?: run { stopSelf();return START_NOT_STICKY }
         p.registerCallback(object:MediaProjection.Callback() { override fun onStop(){stopSelf()} },Handler(Looper.getMainLooper()))
         val dm=resources.displayMetrics
