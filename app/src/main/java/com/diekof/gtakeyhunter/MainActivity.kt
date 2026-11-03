@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity() {
                             Button(onClick={store.channel=channel; toast("Canal salvo")}) { Text("Salvar canal") }
                         }
                         item {
-                            Text("Último evento: $"+"event")
+                            Text("Último evento: $event")
                             Button(onClick={startActivity(Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS))}) { Text("Permitir notificações") }
                             Text("Imagens podem não estar disponíveis em notificações.")
                         }
