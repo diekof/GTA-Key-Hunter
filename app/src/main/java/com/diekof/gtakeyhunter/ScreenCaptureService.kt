@@ -32,7 +32,7 @@ class ScreenCaptureService : Service() {
             .addAction(Notification.Action.Builder(null,"Parar",stop).build()).build()
         startForeground(17,notification,android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION)
         val data=if(Build.VERSION.SDK_INT>=33) intent?.getParcelableExtra(EXTRA_DATA,Intent::class.java)
-            else @Suppress("DEPRECATION") intent?.getParcelableExtra<Intent>(EXTRA_DATA)
+            else intent?.getParcelableExtra<Intent>(EXTRA_DATA)
         if(data==null) { stopSelf(); return START_NOT_STICKY }
         val mgr=getSystemService(MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
         projection=mgr.getMediaProjection(intent.getIntExtra(EXTRA_RESULT,Activity.RESULT_CANCELED),data)
@@ -57,7 +57,7 @@ class ScreenCaptureService : Service() {
                         if(codes.isNotEmpty()){
                             val store=Store(this@ScreenCaptureService)
                             val found=store.add(codes,"Captura autorizada")
-                            if(found>0){store.lastEvent="$"+"found código(s) novo(s)";Events.ping();notifyKey()}
+                            if(found>0){store.lastEvent="$found código(s) novo(s)";Events.ping();notifyKey()}
                         }
                     } finally {bitmap.recycle();busy=false}
                 }
