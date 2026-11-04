@@ -22,31 +22,26 @@ class WhatsAppNotificationService : NotificationListenerService() {
         val message = extras.getCharSequence(Notification.EXTRA_TEXT)?.toString().orEmpty()
         if (!title.contains(store.channel, ignoreCase = true)) return
 
-        val pendingResult = goAsync()
         scope.launch {
-            try {
-                val picture = notificationPicture(extras)
-                val imageCodes = picture?.let { bitmap ->
-                    try {
-                        KeyEngine.recognize(bitmap)
-                    } finally {
-                        bitmap.recycle()
-                    }
-                }.orEmpty()
-                val codes = (KeyEngine.extract(message) + imageCodes).distinct()
-                val found = store.add(codes, "Notificação: ${store.channel}")
-                if (found > 0) {
-                    ClipboardHelper.copyCode(this@WhatsAppNotificationService, codes.first())
-                    store.lastEvent = "$found código(s) na notificação; código copiado"
-                } else if (picture != null) {
-                    store.lastEvent = "Imagem da notificação analisada; nenhum código encontrado"
-                } else {
-                    store.lastEvent = "Notificação recebida; imagem não disponível para OCR"
+            val picture = notificationPicture(extras)
+            val imageCodes = picture?.let { bitmap ->
+                try {
+                    KeyEngine.recognize(bitmap)
+                } finally {
+                    bitmap.recycle()
                 }
-                Events.ping()
-            } finally {
-                pendingResult.finish()
+            }.orEmpty()
+            val codes = (KeyEngine.extract(message) + imageCodes).distinct()
+            val found = store.add(codes, "Notificação: ${store.channel}")
+            if (found > 0) {
+                ClipboardHelper.copyCode(this@WhatsAppNotificationService, codes.first())
+                store.lastEvent = "$found código(s) na notificação; código copiado"
+            } else if (picture != null) {
+                store.lastEvent = "Imagem da notificação analisada; nenhum código encontrado"
+            } else {
+                store.lastEvent = "Notificação recebida; imagem não disponível para OCR"
             }
+            Events.ping()
         }
     }
 
