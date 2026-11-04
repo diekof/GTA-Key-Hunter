@@ -57,7 +57,12 @@ class ScreenCaptureService : Service() {
                         if(codes.isNotEmpty()){
                             val store=Store(this@ScreenCaptureService)
                             val found=store.add(codes,"Captura autorizada")
-                            if(found>0){store.lastEvent="$found código(s) novo(s)";Events.ping();notifyKey()}
+                            if(found>0){
+                                ClipboardHelper.copyCode(this@ScreenCaptureService, codes.first())
+                                store.lastEvent="$found código(s) novo(s); código copiado"
+                                Events.ping()
+                                notifyKey()
+                            }
                         }
                     } finally {bitmap.recycle();busy=false}
                 }
@@ -72,7 +77,8 @@ class ScreenCaptureService : Service() {
         nm.createNotificationChannel(NotificationChannel("found","Códigos encontrados",NotificationManager.IMPORTANCE_HIGH))
         val pending=PendingIntent.getActivity(this,3,Intent(this,MainActivity::class.java),PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
         nm.notify(19,Notification.Builder(this,"found").setSmallIcon(android.R.drawable.ic_dialog_info)
-            .setContentTitle("Possível código encontrado").setContentText("Abra o app para revisar")
+            .setContentTitle("Código copiado para a área de transferência")
+            .setContentText("Abra o PS App e cole para resgatar manualmente")
             .setContentIntent(pending).setAutoCancel(true).build())
     }
     override fun onDestroy(){
