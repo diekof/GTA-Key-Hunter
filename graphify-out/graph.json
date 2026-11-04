@@ -1,0 +1,2404 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity",
+      "label": "MainActivity",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "mainactivity",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L24"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine",
+      "label": "KeyEngine",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "keyengine",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L8"
+    },
+    {
+      "id": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest_keyformattest",
+      "label": "KeyFormatTest",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "keyformattest",
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L4"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "label": "ScreenCaptureService",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "screencaptureservice",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L12"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_events_events",
+      "label": "Events",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "events",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Events.kt",
+      "source_location": "L3"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand_object_callback_l40",
+      "label": "Callback",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "callback",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L40"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "label": "Store",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": "store",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L13"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice",
+      "label": "PsAccessibilityService",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 6,
+      "file_type": "code",
+      "norm_label": "psaccessibilityservice",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L5"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice",
+      "label": "WhatsAppNotificationService",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 7,
+      "file_type": "code",
+      "norm_label": "whatsappnotificationservice",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L5"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "label": ".onCreate()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": ".oncreate()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L26"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_toast",
+      "label": ".toast()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": ".toast()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L106"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_extract",
+      "label": ".extract()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": ".extract()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L11"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_formatted",
+      "label": ".formatted()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": ".formatted()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L17"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_recognize",
+      "label": ".recognize()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": ".recognize()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L12"
+    },
+    {
+      "id": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest_keyformattest_extractsvoucher",
+      "label": ".extractsVoucher()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": ".extractsvoucher()",
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L5"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_events_events_ping",
+      "label": ".ping()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": ".ping()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Events.kt",
+      "source_location": "L5"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onbind",
+      "label": ".onBind()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": ".onbind()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L24"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand",
+      "label": ".onStartCommand()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": ".onstartcommand()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L25"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand_object_callback_l40_onstop",
+      "label": ".onStop()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": ".onstop()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L40"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store_store_add",
+      "label": ".add()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": ".add()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L40"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store_store_clear",
+      "label": ".clear()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": ".clear()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L60"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store_store_decrypt",
+      "label": ".decrypt()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": ".decrypt()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L34"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store_store_encrypt",
+      "label": ".encrypt()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": ".encrypt()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L29"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store_store_key",
+      "label": ".key()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": ".key()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L21"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store_store_recent",
+      "label": ".recent()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "code",
+      "norm_label": ".recent()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L53"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice_onaccessibilityevent",
+      "label": ".onAccessibilityEvent()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "file_type": "code",
+      "norm_label": ".onaccessibilityevent()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L6"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice_oninterrupt",
+      "label": ".onInterrupt()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "file_type": "code",
+      "norm_label": ".oninterrupt()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L7"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice_onnotificationposted",
+      "label": ".onNotificationPosted()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "file_type": "code",
+      "norm_label": ".onnotificationposted()",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L6"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "label": "MainActivity.kt",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "mainactivity.kt",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "bundle",
+      "label": "Bundle",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "bundle",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "componentactivity",
+      "label": "ComponentActivity",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "componentactivity",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "label": "KeyEngine.kt",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "keyengine.kt",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest",
+      "label": "KeyFormatTest.kt",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "keyformattest.kt",
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "bitmap",
+      "label": "Bitmap",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "bitmap",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "test",
+      "label": "Test",
+      "_origin": "ast",
+      "community": 1,
+      "file_type": "code",
+      "norm_label": "test",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "settings_gradle",
+      "label": "settings.gradle.kts",
+      "_origin": "ast",
+      "community": 10,
+      "file_type": "code",
+      "norm_label": "settings.gradle.kts",
+      "source_file": "settings.gradle.kts",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "label": "Store.kt",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "store.kt",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "secretkey",
+      "label": "SecretKey",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "secretkey",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "android",
+      "label": "android",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "android",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "label": "ScreenCaptureService.kt",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "screencaptureservice.kt",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "imagereader",
+      "label": "ImageReader",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "imagereader",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "mediaprojection",
+      "label": "MediaProjection",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "mediaprojection",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "service",
+      "label": "Service",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "volatile",
+      "label": "Volatile",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "volatile",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_events",
+      "label": "Events.kt",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "events.kt",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Events.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "ibinder",
+      "label": "IBinder",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "ibinder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "intent",
+      "label": "Intent",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "intent",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "accessibilityevent",
+      "label": "AccessibilityEvent",
+      "_origin": "ast",
+      "community": 6,
+      "file_type": "code",
+      "norm_label": "accessibilityevent",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "accessibilityservice",
+      "label": "AccessibilityService",
+      "_origin": "ast",
+      "community": 6,
+      "file_type": "code",
+      "norm_label": "accessibilityservice",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice",
+      "label": "PsAccessibilityService.kt",
+      "_origin": "ast",
+      "community": 6,
+      "file_type": "code",
+      "norm_label": "psaccessibilityservice.kt",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice",
+      "label": "WhatsAppNotificationService.kt",
+      "_origin": "ast",
+      "community": 7,
+      "file_type": "code",
+      "norm_label": "whatsappnotificationservice.kt",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "notificationlistenerservice",
+      "label": "NotificationListenerService",
+      "_origin": "ast",
+      "community": 7,
+      "file_type": "code",
+      "norm_label": "notificationlistenerservice",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "statusbarnotification",
+      "label": "StatusBarNotification",
+      "_origin": "ast",
+      "community": 7,
+      "file_type": "code",
+      "norm_label": "statusbarnotification",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "app_build_gradle",
+      "label": "app/build.gradle.kts",
+      "_origin": "ast",
+      "community": 8,
+      "file_type": "code",
+      "norm_label": "app/build.gradle.kts",
+      "source_file": "app/build.gradle.kts",
+      "source_location": "L1"
+    },
+    {
+      "id": "build_gradle",
+      "label": "build.gradle.kts",
+      "_origin": "ast",
+      "community": 9,
+      "file_type": "code",
+      "norm_label": "build.gradle.kts",
+      "source_file": "build.gradle.kts",
+      "source_location": "L1"
+    },
+    {
+      "id": "activity",
+      "label": "activity",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "activity",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "activityresultcontracts",
+      "label": "activityresultcontracts",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "activityresultcontracts",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "bitmapfactory",
+      "label": "bitmapfactory",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "bitmapfactory",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "build",
+      "label": "build",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "build",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "dp",
+      "label": "dp",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "dp",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "items",
+      "label": "items",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "items",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "launch",
+      "label": "launch",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "launch",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "lazycolumn",
+      "label": "lazycolumn",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "lazycolumn",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "lifecyclescope",
+      "label": "lifecyclescope",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "lifecyclescope",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "manifest",
+      "label": "manifest",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "manifest",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "modifier",
+      "label": "modifier",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "modifier",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "rememberlauncherforactivityresult",
+      "label": "rememberlauncherforactivityresult",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "rememberlauncherforactivityresult",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "setcontent",
+      "label": "setcontent",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "setcontent",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "settings",
+      "label": "settings",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "settings",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "toast",
+      "label": "toast",
+      "community": 0,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "toast",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "assertequals",
+      "label": "assertequals",
+      "community": 1,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "assertequals",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "inputimage",
+      "label": "inputimage",
+      "community": 1,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "inputimage",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "resume",
+      "label": "resume",
+      "community": 1,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "resume",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "suspendcancellablecoroutine",
+      "label": "suspendcancellablecoroutine",
+      "community": 1,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "suspendcancellablecoroutine",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "textrecognition",
+      "label": "textrecognition",
+      "community": 1,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "textrecognition",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "textrecognizeroptions",
+      "label": "textrecognizeroptions",
+      "community": 1,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "textrecognizeroptions",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "base64",
+      "label": "base64",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "base64",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "cipher",
+      "label": "cipher",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "cipher",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "context",
+      "label": "context",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "context",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "gcmparameterspec",
+      "label": "gcmparameterspec",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "gcmparameterspec",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "jsonarray",
+      "label": "jsonarray",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "jsonarray",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "jsonobject",
+      "label": "jsonobject",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "jsonobject",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "keygenerator",
+      "label": "keygenerator",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "keygenerator",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "keygenparameterspec",
+      "label": "keygenparameterspec",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "keygenparameterspec",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "keyproperties",
+      "label": "keyproperties",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "keyproperties",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "messagedigest",
+      "label": "messagedigest",
+      "community": 2,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "messagedigest",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "displaymanager",
+      "label": "displaymanager",
+      "community": 3,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "displaymanager",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "mediaprojectionmanager",
+      "label": "mediaprojectionmanager",
+      "community": 3,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "mediaprojectionmanager",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "pixelformat",
+      "label": "pixelformat",
+      "community": 3,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "pixelformat",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "mutablesharedflow",
+      "label": "mutablesharedflow",
+      "community": 4,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "mutablesharedflow",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "notification",
+      "label": "notification",
+      "community": 7,
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "notification",
+      "source_file": "",
+      "type": "external"
+    }
+  ],
+  "links": [
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "target": "volatile",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "attribute",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest_keyformattest_extractsvoucher",
+      "target": "test",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "attribute",
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_recognize",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_extract",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_recognize",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_toast",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_extract",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_formatted",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_events_events_ping",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store_add",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_encrypt",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store_decrypt",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_key",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store_encrypt",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_key",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store_recent",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_decrypt",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice_onnotificationposted",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_extract",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice_onnotificationposted",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_events_events_ping",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest_keyformattest_extractsvoucher",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_extract",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "target": "imagereader",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "target": "mediaprojection",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "target": "android",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "manifest",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.Manifest"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice",
+      "target": "accessibilityservice",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.accessibilityservice.AccessibilityService"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "activity",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.app.Activity"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice",
+      "target": "notification",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.app.Notification"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "context",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.content.Context"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "target": "bitmap",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.graphics.Bitmap"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "target": "bitmap",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.graphics.Bitmap"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "bitmapfactory",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.graphics.BitmapFactory"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "target": "pixelformat",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.graphics.PixelFormat"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "target": "displaymanager",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.hardware.display.DisplayManager"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "target": "imagereader",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.media.ImageReader"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "target": "mediaprojection",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.media.projection.MediaProjection"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "mediaprojectionmanager",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.media.projection.MediaProjectionManager"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "target": "mediaprojectionmanager",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.media.projection.MediaProjectionManager"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "build",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.os.Build"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "bundle",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.os.Bundle"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "settings",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.provider.Settings"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "keygenparameterspec",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.security.keystore.KeyGenParameterSpec"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "keyproperties",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.security.keystore.KeyProperties"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice",
+      "target": "notificationlistenerservice",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.service.notification.NotificationListenerService"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice",
+      "target": "statusbarnotification",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.service.notification.StatusBarNotification"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "base64",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.util.Base64"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice",
+      "target": "accessibilityevent",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.view.accessibility.AccessibilityEvent"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "toast",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "android.widget.Toast"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "componentactivity",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.activity.ComponentActivity"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "rememberlauncherforactivityresult",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.activity.compose.rememberLauncherForActivityResult"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "setcontent",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.activity.compose.setContent"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "activityresultcontracts",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.activity.result.contract.ActivityResultContracts"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "lazycolumn",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.compose.foundation.lazy.LazyColumn"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "items",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.compose.foundation.lazy.items"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "modifier",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.compose.ui.Modifier"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "dp",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.compose.ui.unit.dp"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "lifecyclescope",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "androidx.lifecycle.lifecycleScope"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "target": "inputimage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "com.google.mlkit.vision.common.InputImage"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "target": "textrecognition",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "com.google.mlkit.vision.text.TextRecognition"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "target": "textrecognizeroptions",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "com.google.mlkit.vision.text.latin.TextRecognizerOptions"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "messagedigest",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "java.security.MessageDigest"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "cipher",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "javax.crypto.Cipher"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "keygenerator",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "javax.crypto.KeyGenerator"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "secretkey",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "javax.crypto.SecretKey"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "gcmparameterspec",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "javax.crypto.spec.GCMParameterSpec"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "target": "resume",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "kotlin.coroutines.resume"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_events",
+      "target": "mutablesharedflow",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "kotlinx.coroutines.flow.MutableSharedFlow"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Events.kt",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "launch",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "kotlinx.coroutines.launch"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "target": "suspendcancellablecoroutine",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "kotlinx.coroutines.suspendCancellableCoroutine"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "jsonarray",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "org.json.JSONArray"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "jsonobject",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "org.json.JSONObject"
+      },
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest",
+      "target": "assertequals",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "org.junit.Assert.assertEquals"
+      },
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest",
+      "target": "test",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "metadata": {
+        "target_fqn": "org.junit.Test"
+      },
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_recognize",
+      "target": "bitmap",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "target": "bundle",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice_onaccessibilityevent",
+      "target": "accessibilityevent",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onbind",
+      "target": "intent",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand",
+      "target": "intent",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice_onnotificationposted",
+      "target": "statusbarnotification",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onbind",
+      "target": "ibinder",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store_key",
+      "target": "secretkey",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_events",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_events_events",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Events.kt",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand_object_callback_l40",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest",
+      "target": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest_keyformattest",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity",
+      "target": "componentactivity",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice",
+      "target": "accessibilityservice",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "target": "service",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand_object_callback_l40",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand_object_callback_l40",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice",
+      "target": "notificationlistenerservice",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_events_events",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_events_events_ping",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Events.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_extract",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_recognize",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_keyengine_keyengine_formatted",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_toast",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_mainactivity_mainactivity_oncreate",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice_onaccessibilityevent",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_psaccessibilityservice_psaccessibilityservice_oninterrupt",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onbind",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand_object_callback_l40",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_screencaptureservice_screencaptureservice_onstartcommand_object_callback_l40_onstop",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_key",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_encrypt",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_decrypt",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_add",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_recent",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store_clear",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/Store.kt",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice_onnotificationposted",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest_keyformattest",
+      "target": "app_src_test_java_com_diekof_gtakeyhunter_keyformattest_keyformattest_extractsvoucher",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_main_java_com_diekof_gtakeyhunter_whatsappnotificationservice_whatsappnotificationservice_onnotificationposted",
+      "target": "app_src_main_java_com_diekof_gtakeyhunter_store_store",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "call",
+      "source_file": "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt",
+      "source_location": "L8",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "a4899ae91df1e041e2cf58635d269f094eb59e60"
+}

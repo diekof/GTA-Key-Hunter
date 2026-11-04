@@ -13,5 +13,15 @@ Aplicativo Android experimental em Kotlin para detecção local de possíveis vo
 ## Limitações
 Notificações de canais do WhatsApp podem não conter imagens nem chegar para cada publicação. O serviço de acessibilidade não realiza resgate automático; não há acesso privado a APIs da Sony. O usuário deve confirmar qualquer resgate. A captura de tela exige autorização explícita e não funciona invisivelmente em segundo plano.
 
-## Build
-GitHub Actions: Actions > Android debug APK > Run workflow, ou push na main. Baixe o artifact GTAKeyHunter-debug-apk e extraia o app-debug.apk. O build não está validado até o workflow terminar com sucesso.
+## Build e instalação no Android
+O projeto é exclusivo para Android. O build usa Java 17, Android SDK 35 e Gradle 8.9.
+
+No GitHub, execute o workflow `Android debug APK` em **Actions > Run workflow**. Depois baixe o artifact `GTAKeyHunter-debug-apk` e extraia o `app-debug.apk`.
+
+Com um celular conectado por USB e a depuração USB autorizada, a instalação pode ser feita com:
+
+```bash
+adb install -r app-debug.apk
+```
+
+Após instalar, o usuário precisa habilitar manualmente o acesso às notificações e, quando usar esse recurso, a acessibilidade e a captura de tela. O app não executa resgates automaticamente.

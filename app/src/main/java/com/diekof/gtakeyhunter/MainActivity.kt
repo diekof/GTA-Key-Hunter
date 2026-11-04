@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
                         if (bitmap!=null) {
                             val codes=KeyEngine.recognize(bitmap); bitmap.recycle()
                             val count=store.add(codes,"Imagem selecionada")
-                            store.lastEvent="OCR: ${codes.size} candidato(s), $"+"count novo(s)"
+                            store.lastEvent="OCR: ${codes.size} candidato(s), $count novo(s)"
                             refresh()
                         }
                     } catch (e: Exception) { store.lastEvent="Falha OCR: ${e.javaClass.simpleName}"; refresh() }
@@ -80,7 +80,10 @@ class MainActivity : ComponentActivity() {
                             HorizontalDivider()
                             Text("PlayStation • resgate manual assistido")
                             Button(onClick={
-                                val launch=packageManager.getLaunchIntentForPackage("com.scee.psxandroid")
+                                val launch=listOf("com.scee.psxandroid", "com.playstation")
+                                    .asSequence()
+                                    .mapNotNull(packageManager::getLaunchIntentForPackage)
+                                    .firstOrNull()
                                 if(launch!=null) startActivity(launch) else toast("PS App não encontrado")
                             }) { Text("Abrir PS App") }
                             OutlinedButton(onClick={startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))}) { Text("Configurar acessibilidade") }

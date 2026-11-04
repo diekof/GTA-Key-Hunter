@@ -1,0 +1,68 @@
+{
+  "app/build.gradle.kts": {
+    "mtime": 1793790793.246065,
+    "seen": 1793790998.6275187,
+    "ast_hash": "607bfd146e208d3968ce0cf669d0544e",
+    "semantic_hash": "607bfd146e208d3968ce0cf669d0544e"
+  },
+  "app/src/main/java/com/diekof/gtakeyhunter/Events.kt": {
+    "mtime": 1793790793.2480702,
+    "seen": 1793790998.6275227,
+    "ast_hash": "8f0bb7659f2f6e7e4fb5a66d5f503ebf",
+    "semantic_hash": "8f0bb7659f2f6e7e4fb5a66d5f503ebf"
+  },
+  "app/src/main/java/com/diekof/gtakeyhunter/KeyEngine.kt": {
+    "mtime": 1793790793.2480702,
+    "seen": 1793790998.6275246,
+    "ast_hash": "5a212991e17c621e198ead3b019a936c",
+    "semantic_hash": "5a212991e17c621e198ead3b019a936c"
+  },
+  "app/src/main/java/com/diekof/gtakeyhunter/MainActivity.kt": {
+    "mtime": 1793790793.2485697,
+    "seen": 1793790998.6275253,
+    "ast_hash": "38012148447ef584611265e622f04388",
+    "semantic_hash": "38012148447ef584611265e622f04388"
+  },
+  "app/src/main/java/com/diekof/gtakeyhunter/PsAccessibilityService.kt": {
+    "mtime": 1793790793.2485697,
+    "seen": 1793790998.6275263,
+    "ast_hash": "2340effa77d4db64628d8a612a0b22cf",
+    "semantic_hash": "2340effa77d4db64628d8a612a0b22cf"
+  },
+  "app/src/main/java/com/diekof/gtakeyhunter/ScreenCaptureService.kt": {
+    "mtime": 1793790793.249072,
+    "seen": 1793790998.6275275,
+    "ast_hash": "826a486422440f0badaeb0bffba784d8",
+    "semantic_hash": "826a486422440f0badaeb0bffba784d8"
+  },
+  "app/src/main/java/com/diekof/gtakeyhunter/Store.kt": {
+    "mtime": 1793790793.249072,
+    "seen": 1793790998.6275282,
+    "ast_hash": "a6e267e94c570ae22fd4959dcf95dcc9",
+    "semantic_hash": "a6e267e94c570ae22fd4959dcf95dcc9"
+  },
+  "app/src/main/java/com/diekof/gtakeyhunter/WhatsAppNotificationService.kt": {
+    "mtime": 1793790793.2495763,
+    "seen": 1793790998.6275291,
+    "ast_hash": "82193d0b5cab6920d4a2dddd37d1cbc9",
+    "semantic_hash": "82193d0b5cab6920d4a2dddd37d1cbc9"
+  },
+  "app/src/test/java/com/diekof/gtakeyhunter/KeyFormatTest.kt": {
+    "mtime": 1793790793.251086,
+    "seen": 1793790998.62753,
+    "ast_hash": "2a29d3745b3e29d356acb84287049657",
+    "semantic_hash": "2a29d3745b3e29d356acb84287049657"
+  },
+  "build.gradle.kts": {
+    "mtime": 1793790793.251086,
+    "seen": 1793790998.6275308,
+    "ast_hash": "aaa993e4c02a44a805cf24b1900fb847",
+    "semantic_hash": "aaa993e4c02a44a805cf24b1900fb847"
+  },
+  "settings.gradle.kts": {
+    "mtime": 1793790793.251086,
+    "seen": 1793790998.6275318,
+    "ast_hash": "ee7b55033bd2cdb505683cbe53c2ecd8",
+    "semantic_hash": "ee7b55033bd2cdb505683cbe53c2ecd8"
+  }
+}
