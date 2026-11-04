@@ -53,7 +53,7 @@ class ScreenCaptureService : Service() {
                 padded.recycle()
                 scope.launch {
                     try {
-                        val codes=KeyEngine.recognize(bitmap)
+                        val codes=KeyEngine.recognizeGameKey(bitmap)
                         if(codes.isNotEmpty()){
                             val store=Store(this@ScreenCaptureService)
                             val found=store.add(codes,"Captura autorizada")

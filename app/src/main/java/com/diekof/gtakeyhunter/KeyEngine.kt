@@ -14,5 +14,21 @@ object KeyEngine {
             .addOnSuccessListener { if (cont.isActive) cont.resume(extract(it.text)) }
             .addOnFailureListener { if (cont.isActive) cont.resume(emptyList()) }
     }
+
+    suspend fun recognizeGameKey(bitmap: Bitmap): List<String> = suspendCancellableCoroutine { cont ->
+        recognizer.process(InputImage.fromBitmap(bitmap, 0))
+            .addOnSuccessListener { result ->
+                if (cont.isActive) {
+                    val blocks = result.textBlocks
+                    val hasGame = blocks.any { block ->
+                        GAME_KEYWORDS.any { keyword -> block.text.contains(keyword, ignoreCase = true) }
+                    }
+                    cont.resume(if (hasGame) extract(result.text) else emptyList())
+                }
+            }
+            .addOnFailureListener { if (cont.isActive) cont.resume(emptyList()) }
+    }
+
+    private val GAME_KEYWORDS = listOf("GTA", "ZELDA")
     fun formatted(code: String) = code.chunked(4).joinToString("-")
 }

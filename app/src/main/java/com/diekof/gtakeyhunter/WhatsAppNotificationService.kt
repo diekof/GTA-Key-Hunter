@@ -26,7 +26,7 @@ class WhatsAppNotificationService : NotificationListenerService() {
             val picture = notificationPicture(extras)
             val imageCodes = picture?.let { bitmap ->
                 try {
-                    KeyEngine.recognize(bitmap)
+                    KeyEngine.recognizeGameKey(bitmap)
                 } finally {
                     bitmap.recycle()
                 }
